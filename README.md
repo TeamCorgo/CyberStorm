@@ -52,11 +52,15 @@ Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 90%
 Next step: HQ game box scans are needed, CD game case, Demo discs.
 
 ## 3D Assets
-Progress: ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%
+Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%
 
-Progress so far: Unkown
+<p align="center">
+  <img src="./images/no_wireframe.png" alt="MissionForce: CyberStorm Wireframe is a Sprite">
+</p>
 
-Next step: Marketing materials state that high-quality 3D models were used to create game assets, but it is unclear whether any of those models were actually included in the final game. The 3D models may have been used for elements such as targeting obscurion and the hercbay wireframe. However, it’s also possible the assets were rendered down into a sprite sheet, with no actual 3D models present in the finished product. Between the start menu animations, the 360 hercbay wireframes and just the vertix count of 1996 a reconstruction of 8 Unitech HERCS apears easy with the 8 cybrid HERCS trickier to reconstruct without the 360 hercbay wireframes. Assets such as the carrier, buildings, bioderm heads, and turrets are suspected to be 3D in source only.
+Progress so far: Sadly, it appears that the 3D wireframe visual is actually a sprite animation (quite the bummer). Each HERC component uses a separate color index, allowing the green-to-red color gradient to represent a complex damage model without having to swap out assets.
+
+Next step: Continue decoding the game asset files. There may be a simplified model that can be used to represent targeting occlusion.
 
 ## Videos
 Progress: 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ ?%

@@ -175,7 +175,7 @@ No credits are attributed, however the theme appears to be reasonably well devel
 **Production Artists:** Douglas Brashear, Barry Drew, Mary Ann Fernandes, Ron Clayborn, Point Asia\
 **Additional Art:** Vance Naegle, Dan Buendia
 
-**Game Design:** John Garvin, Graeme Bayless, Don McClure, Robert Kraft, Stephen Cordon
+**Game Design:** John Garvin, Graeme Bayless, Don McClure, Robert Kraft, Stephen Cordon\
 **Storyline:** Robert Kraft\
 **Additional Writing:** J. Steven York\
 **Assistant Director:** Robert Kraft\

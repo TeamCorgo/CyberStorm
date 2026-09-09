@@ -158,44 +158,44 @@ No credits are attributed, however the theme appears to be reasonably well devel
 > "You CAN, however, play the game as Cybrids. There are several bugs that need to be worked around to make this happen without crashing, but we have had several play by email games as either cybrid vs cybrid or cybrid vs human. I also played as Cybrids in the single player campaign, but it's absolutely brutal. A hit to a Cybrid damages all components equally, so that means a damaged Cybrid technically has a damaged life support. I highly recommend it if you're looking for a challenge." ~2007
 
 # Game Credits
-**Executive Producer:** Jay Balakrishnan
-**Producer:** Graeme Bayless
+**Executive Producer:** Jay Balakrishnan\
+**Producer:** Graeme Bayless\
 **Associate Producer:** Don McClure
 
 **Creative Director:** John Garvin
 
-**Lead Software Engineer:** Stephen Cordon
-**Software Engineers:** David McClurg, Miles Smith, Jimmy Campbell
-**Multiplayer Engineer:** Langdon Beeck
+**Lead Software Engineer:** Stephen Cordon\
+**Software Engineers:** David McClurg, Miles Smith, Jimmy Campbell\
+**Multiplayer Engineer:** Langdon Beeck\
 **Additional Programming:** Christopher K. Singleton, Brian Danielson, Phil Taylor, Rhett Anderson, Dynamix "Darkstar" Engineering Group
 
-**Art Directors:** John Garvin, Mike Jahnke, Shawn Sharp
-**Art Resource Coordination:** Jay Dee Alley
-**Herc Designs:** Shawn Sharp
-**Production Artists:** Douglas Brashear, Barry Drew, Mary Ann Fernandes, Ron Clayborn, Point Asia
+**Art Directors:** John Garvin, Mike Jahnke, Shawn Sharp\
+**Art Resource Coordination:** Jay Dee Alley\
+**Herc Designs:** Shawn Sharp\
+**Production Artists:** Douglas Brashear, Barry Drew, Mary Ann Fernandes, Ron Clayborn, Point Asia\
 **Additional Art:** Vance Naegle, Dan Buendia
 
 **Game Design:** John Garvin, Graeme Bayless, Don McClure, Robert Kraft, Stephen Cordon
-**Storyline:** Robert Kraft
-**Additional Writing:** J. Steven York
-**Assistant Director:** Robert Kraft
+**Storyline:** Robert Kraft\
+**Additional Writing:** J. Steven York\
+**Assistant Director:** Robert Kraft\
 **Scriptors:** Don McClure, Gerald Azenaro
 
-**Quality Assurance Manager:** David Steele
-**Quality Engineer:** Scott Gilbert
-**Quality Assurance Technician:** John Wolf
+**Quality Assurance Manager:** David Steele\
+**Quality Engineer:** Scott Gilbert\
+**Quality Assurance Technician:** John Wolf\
 **Quality Assurance Analysts:** Andrew Binder, Chris Stafford, Trish Bayless, Erinn C. Hamilton, Ben Nahorney, Alan Roberts, Aaron Anderson, Garrett Turner, Ken Eaton, Kenny Smith, Christa Wendland, Daniel Hinds, Gary Stevens, Matthew Vincent
 
-**Brand Manager:** Barbara Schwabe
-**Marketing:** Jaymi Bauer
-**Public Relations:** Barbara Dawson
-**Creative Services:** Heather Lavin
+**Brand Manager:** Barbara Schwabe\
+**Marketing:** Jaymi Bauer\
+**Public Relations:** Barbara Dawson\
+**Creative Services:** Heather Lavin\
 **Packaging Art Direction:** Maria Mason
 
-**On-line Manual Writing:** Kevin Lamb
+**On-line Manual Writing:** Kevin Lamb\
 **On-line Manual Graphic Design:** Egil G. Gløersen
 
-**Sound Engineer:** Ken Rogers
+**Sound Engineer:** Ken Rogers\
 **Music:** Loudmouth
 
 **Video Production:** James Carey, David Aughenbaugh

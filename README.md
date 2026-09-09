@@ -6,11 +6,11 @@ A fan-driven historical archive dedicated to MissionForce: CyberStorm — Sierra
 # Motivation
 Despite its age, *MissionForce: CyberStorm* is not truly dead. Player uploads, scattered discussions, and surviving archives prove there is still a pulse beneath the surface. More importantly, the game remains fully playable on modern systems and is legally available through [GOG.com](https://www.gog.com/en/game/missionforce_cyberstorm), creating a rare opportunity to introduce a new generation of players to one of Sierra’s most overlooked strategy titles.
 
-The challenge is visibility. CyberStorm suffers from decades of underrepresentation in gaming media, disappearing fan sites, and mechanics that were never properly explained to newcomers. For many players, the barrier is not the game itself — it is simply discovering how deep and rewarding it actually is.
+The challenge is visibility. CyberStorm suffers from decades of underrepresentation in gaming media, disappearing fan sites, and mechanics that were never properly explained to newcomers. For many players, the barrier is not the game itself; it is simply discovering how deep and rewarding it actually is.
 
 Other classic communities have already demonstrated what is possible when passionate fans refuse to let a game disappear. Projects like [OpenTTD](https://www.openttd.org/), [OpenXcom](https://openxcom.org/), and [OpenRCT2](https://openrct2.io/) transformed aging titles into thriving modern communities through preservation, documentation, multiplayer support, and community-driven development.
 
-There is no reason *MissionForce: CyberStorm* should remain without a community presence. The foundation still exists — the game is obtainable, functional, and mechanically unique even by modern standards. What is missing is a centralized effort to preserve knowledge, document its systems, archive its history, and make entry into the game approachable for new players.
+There is no reason *MissionForce: CyberStorm* should remain without a community presence. The foundation still exists; the game is obtainable, functional, and mechanically unique even by modern standards. What is missing is a centralized effort to preserve knowledge, document its systems, archive its history, and make entry into the game approachable for new players.
 
 # Ways to play
 1. **Digital Release**  
@@ -27,20 +27,24 @@ There is no reason *MissionForce: CyberStorm* should remain without a community 
 
 
 # Preservation status
-To properly preserve the game and ensure compatibility with future devices and software, the assets contained within the game should be extracted or otherwise separated in a structured way. Ideally, this process should be reversible, allowing improved assets—such as higher-quality audio files—to be reinserted into the game later. There also appears to be overlap between multiple Dynamix projects, suggesting that there may be useful cross-project insights or shared preservation techniques applicable to games from that era.
+To properly preserve the game and ensure compatibility with future devices and software, the assets contained within the game should be extracted or otherwise separated in a structured way. Ideally, this process should be reversible, allowing improved assets such as higher-quality audio files to be reinserted into the game later. There also appears to be overlap between multiple Dynamix projects, suggesting that there may be useful cross-project insights or shared preservation techniques applicable to games from that era.
 
 ## Audio
-Music Progress: 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50%
+Music Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%\
+SFX Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%
 
-SFX Progress: 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%
-
-Progress is tracked within a [sub project](https://github.com/TeamCorgo/CS-Audio). Three music songs are preserved.
-
+Stored within a [sub project](https://github.com/TeamCorgo/CS-Audio).
 
 ## Graphics
-Progress: 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 20%
+Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%
 
-Progress is tracked within a [sub project](https://github.com/TeamCorgo/CS-Graphics). Fonts and Cursors are preserved.
+Stored within a [sub project](https://github.com/TeamCorgo/CS-Graphics).\
+Fonts and Cursors are preserved. UI elements are also preserved along with UI placement information.
+
+## Videos
+Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%
+
+Stored within the CS-Graphics Github project.
 
 ## Paper & Digital Documents
 Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 90% 
@@ -50,27 +54,6 @@ Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 90%
 [Installation Guide](./publications/Installation%20Guide.pdf), [Quick Reference Card](./publications/Quick%20Reference%20Card.pdf), [Prima Strategy Guide](./publications/Prima%20Strategy%20Guide.pdf), MVIEWER2.EXE & METALSTO.MVB replaced with [cs-help](https://github.com/TeamCorgo/CS-Help) (sub project), InterAction Magazine issues [27](./publications/InterAction%20Issue%2027%20(Summer%201996).pdf), [28](./publications/InterAction%20Issue%2028%20(Fall%201996).pdf), [29](./publications/InterAction%20Issue%2029%20(Holiday%201996).pdf), [30](./publications/InterAction%20Issue%2030%20(Spring%201997).pdf), Patch v1.1 [documents](./raw%20game%20assets/V1.1%20Patch%20Docs.zip).
 
 Next step: HQ game box scans are needed, CD game case, Demo discs.
-
-## 3D Assets
-Progress: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%
-
-<p align="center">
-  <img src="./images/no_wireframe.png" alt="MissionForce: CyberStorm Wireframe is a Sprite">
-</p>
-
-Progress so far: Sadly, it appears that the 3D wireframe visual is actually a sprite animation (quite the bummer). Each HERC component uses a separate color index, allowing the green-to-red color gradient to represent a complex damage model without having to swap out assets.
-
-Next step: Continue decoding the game asset files. There may be a simplified model that can be used to represent targeting occlusion.
-
-## Videos
-Progress: 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ ?%
-
-Progress so far: Three `.avi` documents have been preserved pulled directly from the loose game install files.
-
-Next step: Video files such as Bioderm deaths can easily be recorded however a better preservation would be to extract the bits from the `.rbx` files sources. Some videos are full screen such as the intro video and credits while others are imbedded into a larger composit such as Bioderm faces within the Medvat.
-
-## Debugger
-Cyberstorm pauses code execution while it doesn't have window focus complicateing the effectiveness of attaching x32dbg. If this pause mechanic can be disabled useing Ghidra then it would assist stepping through the code execution. Instruction stepping should pinpoint the RNG issue the game has when generateing new solar system missions. (It is expected that modern computers run too fast so each mission is generated useing the same seed ms causing the duplications)
 
 # Publications
 ## Prima Strategy Guide
